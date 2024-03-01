@@ -1,9 +1,9 @@
-#ifndef JIO_H
-#define JIO_H
+#ifndef Airtel_H
+#define Airtel_H
 
 
 
-#ifdef JIO_H
+#ifdef Airtel_H
 #define DEFAULT __declspec(dllexport)
 #else
 #define DEFAULT __declspec(dllimport)
@@ -11,13 +11,14 @@
 
 #include<iostream>
 #include"..\SIM\Sim.h"
-class DEFAULT JIO: public Sim
+
+class DEFAULT Airtel : public Sim
 {
 public:
-	JIO();
-	~JIO();
-	virtual void greet();
+	Airtel();
+	~Airtel();
+	void greet();
 };
 
-#endif // !JIO_H
+#endif // !Airtel_H
 

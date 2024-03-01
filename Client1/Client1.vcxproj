@@ -104,11 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\work_dsi\Training\COM for caa\Client1\SIM;D:\work_dsi\Training\COM for caa\Client1\Airtel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>D:\work_dsi\Training\COM for caa\Client1\x64\Debug\Jio.lib;D:\work_dsi\Training\COM for caa\Client1\x64\Debug\SIM.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>D:\work_dsi\Training\COM for caa\Client1\x64\Debug\Airtel.lib;D:\work_dsi\Training\COM for caa\Client1\x64\Debug\SIM.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

@@ -24,6 +24,12 @@
     <ClInclude Include="Sim.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ICalculator1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMobile1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -33,6 +39,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICalculator1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IMobile1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

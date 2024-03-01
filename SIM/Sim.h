@@ -7,13 +7,16 @@
 #define DEFAULT __declspec(dllimport)
 #endif // DEBUG
 
+#include<iostream>
 
 class DEFAULT Sim
 {
+
 public:
+	
 	Sim();
 	~Sim();
-	virtual void greet() = 0;
+	 void greet();
 };
 
 #endif // !SIM_H
