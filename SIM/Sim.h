@@ -8,7 +8,6 @@
 #endif // DEBUG
 
 
-
 class DEFAULT Sim
 {
 public:
